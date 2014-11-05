@@ -1,15 +1,5 @@
-require 'capybara' # loading capybara
-include Capybara::DSL 
-# It contain all the methods you use for writing test. 
-
-=begin
-it will tell capybara to use selenium. It should be noted that  
-By default, Capybara uses the :rack_test driver, which is fast but
-limited: it does not support JavaScript, nor is it able to access HTTP 
-resources outside of your Rack application, such as remote
-APIs and OAuth services.
-=end
-Capybara.default_driver = :selenium 
+require 'rack/test' 
+include Rack::Test::Methods 
 
 def app
   Sinatra::Application 
