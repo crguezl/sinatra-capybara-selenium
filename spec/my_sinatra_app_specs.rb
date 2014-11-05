@@ -4,6 +4,6 @@ require 'spec_helper.rb' # It will load the configuration you set in spec_helper
 describe 'make API call to load path' do 
   it "should load the home page" do
     visit 'http://0.0.0.0:4567'
-    page.should have_content("sinatra")
+    expect(page).to have_content("Sinatra")
   end
 end
