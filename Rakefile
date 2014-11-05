@@ -1,3 +1,9 @@
+task :default => :spec
+
+desc "run examples"
+task :spec do
+  sh "rspec -I. spec/my_sinatra_app_specs.rb"
+end
 
 # Had many problems installing nokogiri 1.6.4 on my mac.
 # solved this way:

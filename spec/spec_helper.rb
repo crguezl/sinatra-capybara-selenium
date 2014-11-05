@@ -17,7 +17,7 @@ RSpec.configure do |config|
 #  end
 
   config.run_all_when_everything_filtered = true
-  config.filter_run :focus
+# config.filter_run :focus
   config.order = :random
 
 =begin
