@@ -2,7 +2,7 @@ task :default => :spec
 
 desc "run examples"
 task :spec do
-  sh "rspec -I. -Ispec spec/my_sinatra_app_specs.rb"
+  sh "rspec -I. spec/my_sinatra_app_specs.rb"
 end
 
 task :server do
