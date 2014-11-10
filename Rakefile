@@ -12,7 +12,6 @@ end
 # Had many problems installing nokogiri 1.6.4 on my mac.
 # solved this way:
 
-# gem install nokogiri -- 
 # gem install nokogiri -- --use-system-libraries
 #        [--with-xml2-config=/path/to/xml2-config]
 #        [--with-xslt-config=/path/to/xslt-config]
