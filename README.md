@@ -14,3 +14,4 @@ Open a new terminal and run the tests with:
 
 ## See 
 * [sample app with sinatra rspec capybara and selenium](http://codedecoder.wordpress.com/2013/01/09/sample-app-with-sinatra-rspec-capybara-and-selenium/)
+* [Travis: Status Images](http://docs.travis-ci.com/user/status-images/)
