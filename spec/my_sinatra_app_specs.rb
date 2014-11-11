@@ -11,7 +11,7 @@ RSpec.configure do |config|
   config.order = :random
 end
 
-describe 'make API call to load path' do 
+describe 'make API call to load path', :type => :feature do 
   it "should load the home page" do
     visit 'http://localhost:4567'
     expect(page).to have_content("Sinatra")
