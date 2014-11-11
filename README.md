@@ -13,7 +13,7 @@ Open a new terminal and run the tests with:
       rake
 
 ## See 
-* [sample app with sinatra rspec capybara and selenium](http://codedecoder.wordpress.com/2013/01/09/sample-app-with-sinatra-rspec-capybara-and-selenium/)
+* The blog [sample app with sinatra rspec capybara and selenium](http://codedecoder.wordpress.com/2013/01/09/sample-app-with-sinatra-rspec-capybara-and-selenium/)
 * With Travis CI, you can embed little status icons into your
   project's README or general documentation. That way, visitors of
   your projects or site can immediately see its build status.
