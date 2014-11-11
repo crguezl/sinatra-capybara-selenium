@@ -5,6 +5,11 @@ task :spec do
   sh "bundle exec rspec -I. spec/my_sinatra_app_specs.rb"
 end
 
+desc "run spec examples with poltergeist"
+task :polter do
+  sh "bundle exec rspec -I. spec/polter_app_specs.rb"
+end
+
 task :server do
   sh "bundle exec ruby my_sinatra_app.rb"
 end
