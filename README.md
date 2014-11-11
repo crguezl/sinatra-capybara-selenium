@@ -1,5 +1,5 @@
+## Sinatra and Capybara [![Build Status](https://travis-ci.org/crguezl/sinatra-capybara-selenium/builds/?branch=master)](https://travis-ci.org/crguezl/sinatra-capybara-selenium/builds/)
 This example illustrates how to use Sinatra, Capybara and Selenium.
-## Sinatra and Capybara 
 See the branch `rspecsinatra`
 for an example of how to use `Rspec`and `Sinatra`
 
