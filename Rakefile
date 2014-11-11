@@ -1,12 +1,12 @@
 task :default => :spec
 
-desc "run examples"
+desc "run spec examples"
 task :spec do
-  sh "rspec -I. spec/my_sinatra_app_specs.rb"
+  sh "bundle exec rspec -I. spec/my_sinatra_app_specs.rb"
 end
 
 task :server do
-  sh "ruby my_sinatra_app.rb"
+  sh "bundle exec ruby my_sinatra_app.rb"
 end
 
 # Had many problems installing nokogiri 1.6.4 on my mac.
