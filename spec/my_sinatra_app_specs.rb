@@ -1,8 +1,5 @@
-require 'coveralls'
-Coveralls.wear!
 require 'capybara' # loading capybara
 require 'capybara/dsl'
-
 Capybara.default_driver = :selenium 
 
 ENV['RACK_ENV'] = 'test'
