@@ -1,7 +1,7 @@
-require 'capybara' # loading capybara
-require 'capybara/dsl'
 require 'coveralls'
 Coveralls.wear!
+require 'capybara' # loading capybara
+require 'capybara/dsl'
 
 Capybara.default_driver = :selenium 
 
